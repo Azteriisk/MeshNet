@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGPU 3D Modeling</title>
+    <!-- Basic CSS to make the canvas fill the entire window -->
+    <style>
+        body { margin: 0; }  /* Remove default margins */
+        canvas { display: block; }  /* Prevent unwanted spacing */
+    </style>
+</head>
+<body>
+    <!-- Canvas element that WebGPU will render to -->
+    <!-- The ID 'gpuCanvas' is used to reference this element in our JavaScript -->
+    <canvas id="gpuCanvas"></canvas>
+    
+    <!-- Load our main JavaScript file as a module -->
+    <!-- Using type="module" allows us to use ES6 import/export syntax -->
+    <script src="main.js" type="module"></script>
+</body>
+</html>
